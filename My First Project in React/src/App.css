@@ -1,0 +1,466 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  color: #101010;
+}
+
+body 
+{
+  font-family: Jost;
+  background: #fff;
+}
+
+ul,
+ol
+{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+small
+{
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+}
+
+.circle-1
+{
+  border: 0.1rem solid #101010;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-2
+{
+  border: 0.1rem solid #101010;
+  border-radius: 50%;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+small .sm-heading
+{
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+small img
+{
+  position: relative;
+  top: .35rem;
+  margin-right: 0.62rem;
+}
+
+
+h2 
+{
+  flex-shrink: 0;
+  color: var(--Black, #101010);
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.575rem;
+}
+
+.para
+{
+  width: 40.3125rem;
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-bottom: 3.12rem;
+}
+
+/* Navbar Start */
+
+nav 
+{
+  width: 100%;
+  margin: 1.56rem 0;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.wrap 
+{
+  display: flex;
+}
+
+nav .wrap 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul 
+{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li 
+{
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;   
+}
+
+.contactBtn 
+{
+  color: #FFF;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 0.9375rem 2rem;
+  border-radius: 0.375rem;
+  background: #FF6B00;
+}
+
+/* Navbar end */
+
+/*#Banner Start */
+
+#banner
+{
+  padding: 0 auto;
+}
+
+#banner .bg 
+{
+  height: 53.0625rem;
+  background: var(--Gradint-Color, linear-gradient(256deg, rgba(255, 195, 152, 0.20) 26.56%, rgba(255, 234, 190, 0.30) 100%));
+  width: 100%;
+}
+
+#banner .wrap 
+{
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .left h1 
+{
+  width: 42.375rem;
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.9375rem;
+  margin-top: 0.63rem;
+  margin-bottom: 2.88rem;
+}
+
+#banner .left p 
+{
+  line-height: 1.9125rem;
+}
+
+#banner a.cvBtn,
+#about a.cvBtn
+{
+  color: #FFF;
+  font-family: Jost;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 0.9375rem 2rem;
+  border-radius: 0.375rem;
+  background: #FF6B00;
+  margin-top: 3.12rem;
+}
+
+/* Banner End */
+
+/* About Start */
+
+#about 
+{
+  margin: 8rem 0 0 0;
+}
+
+#about .wrap 
+{
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about .archive ul 
+{
+  display: flex;
+  gap: 0.63rem;
+  margin-bottom: 3.13rem;
+}
+
+#about .archive
+{
+  display: flex;
+  gap: 1.87rem;
+}
+
+#about .archive ul .a-txt span
+{
+  color: #FF6B00;
+  font-family: "Fira Sans";
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.96875rem */
+}
+
+.abh2 
+{
+  padding: 0.62rem 0 1.25rem 0;
+  width: 24.5rem;
+}
+
+#about .archive ul .a-txt p
+{
+  color: #101010;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin: 0;
+  width: 100%;
+}
+
+.work 
+{
+  color: #000;
+  font-family: Alef;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.work>img
+{
+  padding-right: 0.62rem;
+}
+
+/* About Start */
+
+/* services Start */
+
+#services 
+{
+  padding: 8.25rem 0 4.6rem;
+}
+
+
+.ser
+{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0.52rem;
+}
+
+.headings
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.13rem;
+  text-transform: uppercase;
+}
+
+#services .card-box
+{
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  row-gap: 1.87rem;
+}
+
+#services .card:hover
+{
+  background: #FFF5EF;
+  border: 1px solid #FFF5EF;
+}
+
+#services .card 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 19.5rem;
+  height: 18.9375rem;
+  padding: 2.87rem 1.87rem 3.12rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+  background: #fff;
+}
+
+#services .card img 
+{
+  width: 3.4375rem;
+  height: 3.4375rem;
+  margin-bottom: 1.56rem;
+}
+
+#services .card h4
+{
+  color: var(--Black, #101010);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+}
+
+.box-p
+{
+  text-align: center;
+  margin-top: 0.81rem;
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/* Services End */
+
+/* Resume Start */
+
+#resume 
+{
+  background: #FFF5EF;
+  padding: 4.25rem 0 4.19rem;
+  margin-top: 4.6rem;
+}
+
+#resume .wrap
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#resume .row
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+#resume h5
+{
+  color: #1E1E1E;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+  align-self: stretch;
+}
+
+#resume .card
+{
+  width: 26.5rem;
+  height: 11.8125rem;
+  box-sizing: border-box;
+  border-radius: 0.375rem;
+  border: 0px solid #5C5C5C;
+  background: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1.87rem 1.75rem 1.88rem 2.63rem;
+}
+
+#resume h6 
+{
+  color: #000;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 0.62rem;
+}
+
+#resume .card span
+{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+#resume .card p{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/* Resume End */
+
+/* Portfolio Start */
+
+#portfolio 
+{
+  padding: 8.25rem 0 0;
+}
+
+#portfolio .gallery 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+#portfolio .gallery img{
+  width: 26.5rem;
+  height: 32.125rem;
+  border-radius: 0.375rem;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+/* Portfolio End */
+
+/* Testimonial Start */
+
+#testimonial
+{
+  padding: 8.44rem;
+}
+
+
+
+/* Testimonial End */
+
+
+
+
+
+
+
